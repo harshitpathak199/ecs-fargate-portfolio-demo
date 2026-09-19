@@ -1,14 +1,22 @@
+# Node.js
 node_modules/
 .env
 .env.*
 !.env.example
+
+# AWS credentials
+.aws/
 *.pem
 *.key
-.aws/
-terraform.tfstate
-terraform.tfstate.*
+
+# Terraform
 .terraform/
+*.tfstate
+*.tfstate.*
 *.tfvars
 !*.tfvars.example
 *.tfplan
+crash.log
+
+# Miscellaneous
 .DS_Store
